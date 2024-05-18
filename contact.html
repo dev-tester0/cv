@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webpage|contact</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+    <nav id="nav-bar">
+        <img src="images/R.jpeg" alt="logo">
+
+        <ul>
+            <li><a href="index.html">Home</a> </li>
+            <li><a href="service.html">Service</a> </li>
+            <li><a href="about.html">About</a> </li>
+            <li><a href="contact.html" class="active">Contact</a> </li>
+        </ul>
+
+    </nav>
+
+    <div class="container">
+        <img src="images/new3.jpg" alt="image">
+
+        <div class="message">
+            <h1>CONTACT</h1>
+            <p>This is the contact page of our website</p>
+        </div>
+    </div>
+
+    <div class="form-div">
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Your name..." required>
+    
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Your email address..." required>
+    
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" placeholder="Your phone number..." required>
+    
+    
+            <label for="gender">Gender:</label>
+            <div>
+                <input type="radio" id="male" name="gender" value="male" required>
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Female</label>
+            </div>
+    
+            <label style="margin-top: 20px;" for="message">Message:</label>
+            <textarea id="message" name="message" placeholder="Write your message here..." required></textarea>
+    
+            <div class="container">
+                <button type="submit">Submit</button>
+            </div>
+        </form>
+
+        <footer>
+            <p>&copy; 2023 My Website. All rights reserved.</p>
+            <p>Follow me on.</p>
+            <a target="_blank" href="https://www.twitter.com">Twitter</a>
+            <a target="_blank" href="https://www.linkedin.com">LinkedIn</a>
+            <a target="_blank" href="https://www.instagram.com">Instagram</a>
+        </footer>
+
+    </div>
+   
+
+</body>
+</html>

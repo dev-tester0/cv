@@ -1,0 +1,22 @@
+.about{
+    display: flex;
+    margin-top: 10px;
+    align-items: center;
+    background-color: rgba(19, 19, 157, 0.945);
+    height: 290px;
+    width: auto;
+}
+
+.about img{
+    width: 200px;
+    border-radius: 20px;
+    margin-right: 20%;
+
+}
+
+.stuff{
+    width: 500px;
+    font-size: 25px;
+    color: white;
+    font-family: Marck Script;
+}
